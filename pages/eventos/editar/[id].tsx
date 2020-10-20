@@ -19,11 +19,9 @@ const EventEditPage = (): ReactElement => {
     const [initialValues, setInitialValues] = React.useState<Event>({
         es: {
             name: '',
-            description: '',
         },
         en: {
             name: '',
-            description: '',
         },
         availableFor: [],
         availableSince: new Date(),
